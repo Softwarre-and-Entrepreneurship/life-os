@@ -23,7 +23,7 @@ life-os/
 ### 1. 백엔드 + 프론트엔드 동시 실행 (권장)
 
 ```bash
-cd back
+cd .\life-os-dashboard-backend\
 npm install
 npm run dev:local
 ```
@@ -37,12 +37,12 @@ npm run dev:local
 
 ```bash
 # 터미널 1 — 백엔드
-cd back
+cd .\life-os-dashboard-backend\
 npm install
 npm run dev
 
 # 터미널 2 — 프론트엔드
-cd front
+cd .\front\
 npm install
 npm run dev
 ```
@@ -102,7 +102,7 @@ DB_PATH=data/life-os.sqlite
 ## 🗄 데이터 관리
 
 ```bash
-cd back
+cd .\life-os-dashboard-backend\
 
 npm run backup          # DB 백업
 npm run reset -- --force  # DB 초기화 (시드 데이터 포함 재생성)
